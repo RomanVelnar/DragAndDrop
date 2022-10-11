@@ -4,17 +4,17 @@ class ProjectInput {
   element: HTMLFormElement;
 
   constructor() {
-    this.templateElement = <HTMLTemplateElement>(
-      document.getElementById("project-input")!
-    );
-    this.hostElement = <HTMLDivElement>document.getElementById("app")!;
+    this.templateElement = document.getElementById(
+      "project-input"
+    )! as HTMLTemplateElement;
+    this.hostElement = document.getElementById("app")! as HTMLDivElement;
 
     const importedNode = document.importNode(
       this.templateElement.content,
       true
     );
-    this.element = <HTMLFormElement>importedNode.firstElementChild;
-    this.attach;
+    this.element = importedNode.firstElementChild as HTMLFormElement;
+    this.attach();
   }
   private attach() {
     this.hostElement.insertAdjacentElement("afterbegin", this.element);
