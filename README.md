@@ -23,3 +23,8 @@ run the npm install to install the dependencies
 ```
 npm install
 ```
+
+run the live server 
+```
+npm start
+```
