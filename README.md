@@ -2,8 +2,10 @@
 ## Purpose of this app
 This app is meant to use the drag and drop mechanics where users can add their projects to the library. The whole projects is done in TS to make the inputs very strict.
 
+
 ## Technologies used
 - TypeScript 
+- JS bundling
 - HTML 
 - CSS
 
@@ -11,6 +13,7 @@ This app is meant to use the drag and drop mechanics where users can add their p
 - added local storage 
 - adding other functionalities to the app
 - make the app mobile and used crossplatform
+- spread the code to different files
 
 
 ## How to install the app
