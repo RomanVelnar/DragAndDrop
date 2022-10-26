@@ -11,6 +11,7 @@ At first whole code was written in one file. The next step was to distibute the 
 
 ## Technologies used
 - TypeScript 
+- JS bundling
 - HTML 
 - CSS
 
@@ -18,6 +19,7 @@ At first whole code was written in one file. The next step was to distibute the 
 - added local storage 
 - adding other functionalities to the app
 - make the app mobile and used crossplatform
+- spread the code to different files
 
 
 ## How to install the app
