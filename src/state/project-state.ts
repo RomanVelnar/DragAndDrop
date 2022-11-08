@@ -1,5 +1,7 @@
-namespace App {
-  type Listener<T> = (items: T[]) => void;
+import { Project } from "../models/project-model";
+import { ProjectStatus } from "../models/project-model";
+
+type Listener<T> = (items: T[]) => void;
 
   class State<T> {
     protected listeners: Listener<T>[] = [];
@@ -53,4 +55,3 @@ namespace App {
   }
 
   export const projectState = ProjectState.getInstance();
-}
